@@ -1,0 +1,21 @@
+# HTTP Basic Authentication for staging site protection
+AuthType Basic
+AuthName "Staging - Authorized Access Only"
+AuthUserFile /path/to/.htpasswd
+Require valid-user
+
+# Prevent directory listing
+Options -Indexes
+
+# Enable gzip compression for better performance
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml
+</IfModule>
+
+# Set caching headers for static assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType image/svg+xml "access plus 1 week"
+</IfModule>

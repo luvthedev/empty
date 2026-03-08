@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title | default("TaskFlow") }} — TaskFlow</title>
+  <meta name="description" content="{{ description | default("TaskFlow: Project management that keeps your team on track.") }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-nav__brand">TaskFlow</a>
+    <button class="site-nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="site-nav__links" role="list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/pages/feature-1/">Project Boards</a></li>
+      <li><a href="/pages/feature-2/">Analytics</a></li>
+    </ul>
+  </nav>
+
+  <main class="content" id="main-content">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__inner">
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="/pages/feature-1/">Project Boards</a></li>
+            <li><a href="/pages/feature-2/">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul role="list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul role="list">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">&copy; 2026 TaskFlow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
