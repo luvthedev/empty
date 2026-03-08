@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "owner": "Sarah Chen",
+      "status": "In Progress",
+      "tasks_total": 24,
+      "tasks_completed": 18,
+      "due_date": "2026-04-15",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "name": "Mobile App Launch",
+      "owner": "Marcus Johnson",
+      "status": "In Progress",
+      "tasks_total": 32,
+      "tasks_completed": 12,
+      "due_date": "2026-05-01",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "name": "Q1 Marketing Campaign",
+      "owner": "Aisha Patel",
+      "status": "Completed",
+      "tasks_total": 15,
+      "tasks_completed": 15,
+      "due_date": "2026-03-31",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "name": "API Integration",
+      "owner": "David Kim",
+      "status": "Planning",
+      "tasks_total": 18,
+      "tasks_completed": 0,
+      "due_date": "2026-06-01",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "name": "Customer Onboarding Flow",
+      "owner": "Elena Rodriguez",
+      "status": "In Progress",
+      "tasks_total": 10,
+      "tasks_completed": 7,
+      "due_date": "2026-03-20",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "name": "Security Audit",
+      "owner": "James Wright",
+      "status": "Planning",
+      "tasks_total": 12,
+      "tasks_completed": 0,
+      "due_date": "2026-04-30",
+      "priority": "High"
+    },
+    {
+      "id": 7,
+      "name": "Documentation Update",
+      "owner": "Sarah Chen",
+      "status": "In Progress",
+      "tasks_total": 8,
+      "tasks_completed": 5,
+      "due_date": "2026-03-25",
+      "priority": "Low"
+    },
+    {
+      "id": 8,
+      "name": "Performance Optimization",
+      "owner": "Marcus Johnson",
+      "status": "Completed",
+      "tasks_total": 6,
+      "tasks_completed": 6,
+      "due_date": "2026-02-28",
+      "priority": "Medium"
+    }
+  ],
+  "team_stats": {
+    "total_projects": 8,
+    "active_projects": 5,
+    "completed_projects": 2,
+    "team_members": 6,
+    "tasks_completed_this_month": 47,
+    "on_time_delivery_rate": "94%"
+  }
+}
