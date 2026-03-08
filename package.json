@@ -4,7 +4,9 @@
   "description": "Static site generator project built with Eleventy",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "deploy": "bash deploy.sh",
+    "deploy:build": "bash deploy.sh build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
