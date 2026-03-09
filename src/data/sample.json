@@ -1,0 +1,97 @@
+{
+  "product": {
+    "name": "TaskFlow",
+    "tagline": "Streamline your team's workflow from idea to delivery",
+    "description": "TaskFlow is the modern project management platform that helps teams plan, track, and deliver work with clarity and confidence."
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "owner": "Sarah Chen",
+      "status": "In Progress",
+      "tasks_total": 24,
+      "tasks_completed": 18,
+      "due_date": "2026-04-15",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "name": "Mobile App v2.0",
+      "owner": "James Rivera",
+      "status": "In Progress",
+      "tasks_total": 42,
+      "tasks_completed": 28,
+      "due_date": "2026-05-01",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "name": "API Integration",
+      "owner": "Aisha Patel",
+      "status": "Planning",
+      "tasks_total": 16,
+      "tasks_completed": 3,
+      "due_date": "2026-06-10",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "name": "Customer Onboarding Flow",
+      "owner": "Marcus Johnson",
+      "status": "In Review",
+      "tasks_total": 12,
+      "tasks_completed": 11,
+      "due_date": "2026-03-20",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "name": "Q2 Marketing Campaign",
+      "owner": "Elena Kowalski",
+      "status": "Planning",
+      "tasks_total": 18,
+      "tasks_completed": 2,
+      "due_date": "2026-07-01",
+      "priority": "Low"
+    }
+  ],
+  "team_members": [
+    {
+      "name": "Sarah Chen",
+      "role": "Design Lead",
+      "projects": 3,
+      "tasks_completed_this_week": 8
+    },
+    {
+      "name": "James Rivera",
+      "role": "Senior Developer",
+      "projects": 2,
+      "tasks_completed_this_week": 12
+    },
+    {
+      "name": "Aisha Patel",
+      "role": "Backend Engineer",
+      "projects": 4,
+      "tasks_completed_this_week": 6
+    },
+    {
+      "name": "Marcus Johnson",
+      "role": "Product Manager",
+      "projects": 5,
+      "tasks_completed_this_week": 4
+    },
+    {
+      "name": "Elena Kowalski",
+      "role": "Marketing Lead",
+      "projects": 2,
+      "tasks_completed_this_week": 5
+    }
+  ],
+  "analytics": {
+    "tasks_completed_this_month": 147,
+    "on_time_delivery_rate": "94%",
+    "active_projects": 12,
+    "team_velocity": "32 tasks/week"
+  }
+}
