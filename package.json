@@ -4,7 +4,8 @@
   "description": "A static site built with Eleventy",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
