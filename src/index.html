@@ -1,8 +1,72 @@
 ---
 layout: base.html
 title: Home
-description: Welcome to My Site - a static site built with Eleventy
+description: TaskFlow - Streamline your team's workflow from idea to delivery. Modern project management for teams that ship.
 ---
 
-<h1>Welcome</h1>
-<p>This is a static site generated with Eleventy.</p>
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero-text">
+    <h1 id="hero-heading">{{ sample.product.tagline }}</h1>
+    <p class="hero-subtitle">{{ sample.product.description }}</p>
+    <div class="hero-actions">
+      <a href="/pages/feature-1/" class="btn btn-primary">Explore Features</a>
+      <a href="/pages/feature-2/" class="btn btn-secondary">View Analytics</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="/assets/images/placeholder-hero.svg" alt="TaskFlow dashboard showing project cards, progress tracking, and team overview" width="800" height="400">
+  </div>
+</section>
+
+<section class="stats-bar" aria-label="Key metrics">
+  <div class="stat">
+    <span class="stat-value">{{ sample.analytics.tasks_completed_this_month }}</span>
+    <span class="stat-label">Tasks completed this month</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ sample.analytics.on_time_delivery_rate }}</span>
+    <span class="stat-label">On-time delivery rate</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ sample.analytics.active_projects }}</span>
+    <span class="stat-label">Active projects</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ sample.analytics.team_velocity }}</span>
+    <span class="stat-label">Team velocity</span>
+  </div>
+</section>
+
+<section class="features" aria-labelledby="features-heading">
+  <h2 id="features-heading">Everything your team needs to deliver</h2>
+  <p class="section-subtitle">From planning to launch, TaskFlow keeps your projects on track and your team aligned.</p>
+
+  <div class="grid-3 feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon" aria-hidden="true">&#9776;</div>
+      <h3>Project Tracking</h3>
+      <p>Organize tasks into projects, set priorities, and track progress with visual boards and timelines. Know exactly where every deliverable stands.</p>
+      <a href="/pages/feature-1/" class="feature-link">Learn more &rarr;</a>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" aria-hidden="true">&#9733;</div>
+      <h3>Team Analytics</h3>
+      <p>Understand your team's capacity and velocity with real-time dashboards. Identify bottlenecks before they slow you down.</p>
+      <a href="/pages/feature-2/" class="feature-link">Learn more &rarr;</a>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" aria-hidden="true">&#9729;</div>
+      <h3>Smart Workflows</h3>
+      <p>Automate repetitive processes with customizable workflow templates. Reduce manual overhead and focus on what matters.</p>
+      <a href="#" class="feature-link">Coming soon</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">Ready to streamline your workflow?</h2>
+  <p>Join thousands of teams already using TaskFlow to ship better products, faster.</p>
+  <a href="#" class="btn btn-primary btn-large">Get Started Free</a>
+</section>
